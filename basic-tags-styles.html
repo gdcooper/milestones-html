@@ -5,13 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Tags HTML</title>
 
+
+    <style>
+      #tags {
+        color: lavender;
+        text-align: center;
+      }
+
+      .tangerine {
+        color: #f28500;
+      }
+
+      div > h2 {
+        color: purple;
+      }
+
+      .borders {
+        border: yellow;
+      }
+    </style>
   </head>
   <body>
 
     <h1 id="tags">Basic Tags</h1>
-    <section>
+    <section id="one">
+      <div>
       <h2> A New Tag: The Paragraph</h2>
-      <p>
+      </div>
+      <p class="tangerine">
         In HTML, paragraphs are blocks of text typically placed in the 'body' section of the code. They denote the 'body' text of a website, hence the placement.
 
         A paragraph is used to create easy blocks of text to manipulate and put between headings, and other things like lists or pictures.
@@ -19,26 +40,26 @@
         It is denoted in HTML using p.
       </p>
     </section>
-    <section>
+    <section id="two">
       <h2>Blockquotes!</h2>
       <p>Blockquotes are used to cite other quotes in a differing format, often focusing on longer quotes and quotes from other websites.</p>
       <blockquote cite="https://blog.hubspot.com/sales/famous-quotes">
         "Always remember that you are absolutely unique. Just like everyone else."
       </blockquote>
     </section>
-    <section>
+    <section id="three">
       <h2>Pre-Formatted Text</h2>
       <pre>
         This tag, pre, is used to denote pre-formatted text that is already spaced, and will stay at a consistent width and spacing no matter what.
       </pre>
     </section>
-    <section>
+    <section id="four">
       <h2>Emphasis: The em and i Tags</h2>
       <p>In HTML, there are two different ways to emphasize text. There is the em tag, which looks like this: <em>Shouting is fun!</em></p>
 
       <p>Then, there is also the i tag, which both emphasizes the text and sets it off from the rest: <i>Shouting is fun!</i></p>
     </section>
-    <section>
+    <section id="five">
       <h2>Bolding: The b and strong Tags</h2>
       <p>There are also ways to bold text, or make it bold. The b tag is stylistic, and makes text bold: <b>Shouting is fun!</b></p>
 
@@ -46,20 +67,20 @@
 
       <p>This is the same relationship betwen i and em: One was original, intended for function, and the other evolved for style.</p>
     </section>
-    <section>
+    <section id="six">
       <h2>The Code Tag</h2>
       <p>The 'code' tag embeds code directly in the page to be viewable in a normal browser view. Here is an example of the 'snippet' from another page, displayed in its code:
         Try <a href="https://google.com" id="the-best-link" class="banana"  target="_blank">Google</a>!
       </p>
     </section>
-    <section>
+    <section id="seven">
       <h2>The a Tag</h2>
       <p>The a tag is used to denote hyperlinks in html code, containing an href with a link to a webiste, and accompanying text that the hyperlink is set to.
 
         For an example, look at the previous code under the 'code' tag.
       </p>
     </section>
-    <section>
+    <section id="eight">
       <h2>The Image Tag</h2>
       <p>The image tag, written as img, inserts an image into an html page using a link, written as src, and alt text in case of inability to display the picture.
 
@@ -68,7 +89,7 @@
 
       <img src="https://kids.nationalgeographic.com/content/dam/kids/photos/articles/Nature/H-P/Habitats/Ocean/wave.ngsversion.1500050062134.adapt.1900.1.jpg" alt="Ocean Waves" width=800 height=600>
     </section>
-    <section>
+    <section id="nine">
       <h2>Headers</h2>
       <p>In html, basic formatting comes in the form of various tags and attributes. Headers are particularly alterable in terms of size. Here are examples of different headers, using the h1, h2, and h3 tags.
 
@@ -81,11 +102,11 @@
       <h5>This One's Even Smaller!</h5>
       <h6>This is the Smallest Header!</h6>
     </section>
-    <section>
+    <section id="ten">
       <h2>Lists!</h2>
       <p>There are two different types of lists in html, ordered and unordered lists. Unordered lists start with bullets, and ordered start with numbers.</p>
     </section>
-    <section>
+    <section id="eleven">
       <h2 id="tags">Different Flowers</h2>
       <ul>
         <li>Lily</li>
@@ -97,7 +118,7 @@
         <li>Peony</li>
       </ul>
     </section>
-    <section>
+    <section id="tweleve">
       <ol type="first">
         <li>Bird of Paradise</li>
         <li>Rose</li>
@@ -108,7 +129,7 @@
         <li>Lavender</li>
       </ol>
     </section>
-    <section>
+    <section id="thirteen">
       <ol type="movies">
         <li>Princess Bride</li>
           <ul>
@@ -127,7 +148,7 @@
           </ul>
       </ol>
     </section>
-
+    <section id="fourteen" class="borders">
     <h2 id="tags">Tables</h2>
 
     <table style="width: 15%">

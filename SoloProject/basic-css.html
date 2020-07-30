@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+
+    <title>The Basics of CSS</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+  <style>
+
+body {
+  background-color: grey;
+  background-image: url(https://media.giphy.com/media/5HK4TiiBeLSZq/giphy.gif);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+h2{
+  color: white;
+  text-align: center;
+}
+
+div > h2 {
+  color: #f28500;
+}
+
+div.shout {
+  text-transform: capitalize;
+  color: rgb(34, 30, 30);
+}
+
+div.banana {
+  line-height:500%;
+}
+
+div.vibes {
+  letter-spacing: 8px;
+}
+div.woowoo {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.bigboy {
+  font-size: 50px;
+}
+
+div.fashion {
+  font-style: oblique;
+}
+
+div.hefty {
+  font-weight: 700;
+}
+
+ol.disc{
+  list-style-type: disc;
+}
+
+#karma {
+  border:solid rgb(152, 251, 152) 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 40%;
+  padding: 40px;
+}
+
+  </style>
+  </head>
+<body>
+  <h1>CSS Code</h1>
+  <section>
+    <h2>Here are some excercises with CSS</h2>
+    <h2>Pictures: Margin, Padding, Border</h2>
+
+      <img src="https://cf.ltkcdn.net/small-pets/images/orig/261803-1600x1030-fun-chameleon-facts-4.jpg" alt="chameleon" id="karma"
+      height=800 weight=800>
+
+      <p>This picture has a margin, padding, and border made in css style.</p>
+    </section>
+
+  <h2>Line Heights</h2>
+    <div class="banana">This is a line height<br>
+
+    This line has a 'line height' of 500%, hence the spacing!</div>
+
+    <h2>Text Transformation in CSS</h2>
+
+    <div class="shout">This Sentence is Capitalized Using Text Transform!</div>
+
+  <h2>Spacing Out Letters</h2>
+
+      <div class="vibes">This sentence is V I B I N G</div>
+
+  <h2>Font Stuff</h2>
+
+      <div class="woowoo">The font family of this was altered!</div>
+
+      <div class="bigboy">This font is made BIG by font alterations</div>
+
+      <div class="fashion">Oblique is the font style here</div>
+
+      <div class="hefty">The weight of this sentence is 700</div>
+
+  <h2>List Styling in CSS</h2>
+      <ol class="disc">
+        <li>Karma</li>
+        <li>Karma</li>
+        <li>Karma</li>
+        <li>Kameleon</li>
+      </ol>
+
+
+  <h1>The Biggest Headings on this page are colored using a Descendant selector, which changes the 'Descendant Elements.</h1>
+
+  <div>
+    <h2>This text is changed using a child combinator! That selects all items that are 'children' of an element.</h2>
+  </div>
+
+</body>
