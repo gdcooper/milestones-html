@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Tags HTML</title>
+
+
+    <style>
+      #tags {
+        color: lavender;
+        text-align: center;
+      }
+
+      .tangerine {
+        color: #f28500;
+      }
+
+      div > h2 {
+        color: purple;
+      }
+
+      .borders {
+        border: yellow;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1 id="tags">Basic Tags</h1>
+    <section id="one">
+      <div>
+      <h2> A New Tag: The Paragraph</h2>
+      </div>
+      <p class="tangerine">
+        In HTML, paragraphs are blocks of text typically placed in the 'body' section of the code. They denote the 'body' text of a website, hence the placement.
+
+        A paragraph is used to create easy blocks of text to manipulate and put between headings, and other things like lists or pictures.
+
+        It is denoted in HTML using p.
+      </p>
+    </section>
+    <section id="two">
+      <h2>Blockquotes!</h2>
+      <p>Blockquotes are used to cite other quotes in a differing format, often focusing on longer quotes and quotes from other websites.</p>
+      <blockquote cite="https://blog.hubspot.com/sales/famous-quotes">
+        "Always remember that you are absolutely unique. Just like everyone else."
+      </blockquote>
+    </section>
+    <section id="three">
+      <h2>Pre-Formatted Text</h2>
+      <pre>
+        This tag, pre, is used to denote pre-formatted text that is already spaced, and will stay at a consistent width and spacing no matter what.
+      </pre>
+    </section>
+    <section id="four">
+      <h2>Emphasis: The em and i Tags</h2>
+      <p>In HTML, there are two different ways to emphasize text. There is the em tag, which looks like this: <em>Shouting is fun!</em></p>
+
+      <p>Then, there is also the i tag, which both emphasizes the text and sets it off from the rest: <i>Shouting is fun!</i></p>
+    </section>
+    <section id="five">
+      <h2>Bolding: The b and strong Tags</h2>
+      <p>There are also ways to bold text, or make it bold. The b tag is stylistic, and makes text bold: <b>Shouting is fun!</b></p>
+
+      <p>However, there is also the strong tag, which was made as part of original html and just makes text stronger than the surroundings: <strong>Shouting is fun!</strong></p>
+
+      <p>This is the same relationship betwen i and em: One was original, intended for function, and the other evolved for style.</p>
+    </section>
+    <section id="six">
+      <h2>The Code Tag</h2>
+      <p>The 'code' tag embeds code directly in the page to be viewable in a normal browser view. Here is an example of the 'snippet' from another page, displayed in its code:
+        Try <a href="https://google.com" id="the-best-link" class="banana"  target="_blank">Google</a>!
+      </p>
+    </section>
+    <section id="seven">
+      <h2>The a Tag</h2>
+      <p>The a tag is used to denote hyperlinks in html code, containing an href with a link to a webiste, and accompanying text that the hyperlink is set to.
+
+        For an example, look at the previous code under the 'code' tag.
+      </p>
+    </section>
+    <section id="eight">
+      <h2>The Image Tag</h2>
+      <p>The image tag, written as img, inserts an image into an html page using a link, written as src, and alt text in case of inability to display the picture.
+
+        The picture's width and height can also be changed in html, and can be assigned properties and classes. Here's an example:
+      </p>
+
+      <img src="https://kids.nationalgeographic.com/content/dam/kids/photos/articles/Nature/H-P/Habitats/Ocean/wave.ngsversion.1500050062134.adapt.1900.1.jpg" alt="Ocean Waves" width=800 height=600>
+    </section>
+    <section id="nine">
+      <h2>Headers</h2>
+      <p>In html, basic formatting comes in the form of various tags and attributes. Headers are particularly alterable in terms of size. Here are examples of different headers, using the h1, h2, and h3 tags.
+
+        This will allow you to view how these tags affect text size.
+      </p>
+      <h1>This is a Big Header!</h1>
+      <h2>This is a Section Header!</h2>
+      <h3>This is a Smaller Header!</h3>
+      <h4>This is an Even Smaller Header!</h4>
+      <h5>This One's Even Smaller!</h5>
+      <h6>This is the Smallest Header!</h6>
+    </section>
+    <section id="ten">
+      <h2>Lists!</h2>
+      <p>There are two different types of lists in html, ordered and unordered lists. Unordered lists start with bullets, and ordered start with numbers.</p>
+    </section>
+    <section id="eleven">
+      <h2 id="tags">Different Flowers</h2>
+      <ul>
+        <li>Lily</li>
+        <li>Aster</li>
+        <li>Tulip</li>
+        <li>Jasmine</li>
+        <li>Poppy</li>
+        <li>Lilac</li>
+        <li>Peony</li>
+      </ul>
+    </section>
+    <section id="tweleve">
+      <ol type="first">
+        <li>Bird of Paradise</li>
+        <li>Rose</li>
+        <li>Daisy</li>
+        <li>Oleander</li>
+        <li>Hyacinth</li>
+        <li>Daffodil</li>
+        <li>Lavender</li>
+      </ol>
+    </section>
+    <section id="thirteen">
+      <ol type="movies">
+        <li>Princess Bride</li>
+          <ul>
+            <li>Buttercup</li>
+            <li>Westley</li>
+            <li>Inigo Montoya</li>
+            <li>Fezzik</li>
+            <li>Humperdink</li>
+          </ul>
+        <li>The Holy Grail</li>
+          <ul>
+              <li>King Arthur</li>
+              <li>Sir Robin</li>
+              <li>Sir Bedivere</li>
+              <li>The Black Knight</li>
+          </ul>
+      </ol>
+    </section>
+    <section id="fourteen" class="borders">
+    <h2 id="tags">Tables</h2>
+
+    <table style="width: 15%">
+
+      <p>Color Tables!</p>
+      <tr>
+        <th>red</th>
+        <th>blue</th>
+        <th>yellow</th>
+      </tr>
+
+      <tr>
+        <td>green</td>
+        <td>orange</td>
+        <td>purple</td>
+      </tr>
+
+      <tr>
+        <td>pink</td>
+        <td>grey</td>
+        <td>brown</td>
+      </tr>
+
+      <tr>
+        <td>gold</td>
+        <td>silver</td>
+        <td>bronze</td>
+      </tr>
+
+    </table>
+
+    <br>
+
+    <table style="width: 25%">
+<p>Onomatopeia Tables!</p>
+      <tr>
+        <th>bloop</th>
+        <th>sploosh</th>
+        <th>smack</th>
+      </tr>
+
+      <tr>
+        <td>squish</td>
+        <td>scream</td>
+        <td>fwoop</td>
+      </tr>
+      <tr>
+        <td>boing</td>
+        <td>rustle</td>
+        <td>groan</td>
+      </tr>
+      <tr>
+        <td>whoosh</td>
+        <td>yeet</td>
+        <td>boop</td>
+      </tr>
+
+    </table>
+
+    <br>
+
+    <table style="width: 35%">
+<p>Tree Tables!</p>
+      <tr>
+        <th>Oak</th>
+        <th>Birch</th>
+        <th>Pine</th>
+      </tr>
+      <tr>
+        <td>Spruce</td>
+        <td>Palm</td>
+        <td>Willow</td>
+      </tr>
+      <tr>
+        <td>Elm</td>
+        <td>Cherry</td>
+        <td>Apple</td>
+      </tr>
+      <tr>
+        <td>Beech</td>
+        <td>Ash</td>
+        <td>Maple</td>
+      </tr>
+
+    </table>
+
+    </section>
+
+  </body>
+</html>
